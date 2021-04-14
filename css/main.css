@@ -1,0 +1,1109 @@
+/* Default styles */
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+body a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body figure {
+    margin: 0;
+}
+
+body h1 {
+    margin: 0;
+}
+
+/* END Default styles */
+
+/* Header */
+
+    /* Borders */
+
+    /* .navbar {
+        border: 1px solid black;
+    }
+
+    .navbar .container {
+        border: 1px solid chocolate;
+    }
+
+    .navbar .container .col-sm-2,
+    .navbar .container .col-sm-10 {
+        border: 1px solid red;
+    } */
+
+    /* END Borders */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #f4f7fa;
+    padding-top: 45px;
+    z-index: 999;
+}
+
+    .navbar .container .row .col-sm-2,
+    .navbar .container .row .col-sm-10 {
+        height: 48px;
+    }
+
+.navbar .container .row .col-sm-2 .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+    .navbar .container .row .col-sm-10 nav,
+    .navbar .container .row .col-sm-10 nav .navbarMenu {
+        width: 100%;
+        height: 48px;
+        margin: 0;
+        padding: 0;
+    }
+
+.navbar .container .row .col-sm-10 nav .navbarMenu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem {
+    margin-left: 50px;
+}
+
+.navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem a{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    transition: all 0.3s ease;
+}
+
+    /* Pseudo classes */
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem a:hover {
+        color: #393a3a;
+    }
+
+    /* END Pseudo classes */
+
+.navbar .navbarButton {
+    display: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background: url('../img/bg/bg-header.png') no-repeat center center;
+    background-size: cover;
+}
+
+.hero .container {
+    margin-top: -50px;
+}
+
+.hero .container figure {
+    width: 400px;
+}
+
+.hero .container figure figcaption h1 {
+    font-weight: 100;
+    font-size: 72px;
+}
+
+.hero .container figure figcaption span {
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+}
+
+.hero .container figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 12px;
+    height: 42px;
+    width: 150px;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    margin: 60px 0 0 5px;
+    transition: all 0.3s ease;
+}
+
+    /* Pseudo classes */
+
+    .hero .container figure a:hover {
+        background: rgb(53, 52, 52);
+    }
+
+    /* END Pseudo classes */
+
+/* END Header */
+
+/* Features with big icons */
+
+    /* Borders */
+
+    /* .features {
+        border: 1px solid black;
+    }
+
+    .features .container {
+        border: 1px solid gray;
+    }
+
+    .features .container .row {
+        border: 1px solid red;
+    }
+
+    .features .container .row .col-md-4 {
+        border: 1px solid green;
+    } */
+
+    /* END Borders */
+
+.features {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+}
+
+.features .container .row .col-md-4 .feature { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features .container .row .col-md-4 .feature figcaption h5 {
+    font-weight: 500;
+}
+
+.features .container .row .col-md-4 .feature figcaption h5 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26e6e6;
+    border-radius: 15px;
+    width: 50px;
+    height: 16px;
+    margin: 0 auto;
+}
+
+.features .container .row .col-md-4 .feature figcaption h5 div span {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+    .features .container .row .col-md-4 .feature figcaption h5,
+    .features .container .row .col-md-4 .feature figcaption p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+.features .container .row .col-md-4 .feature figcaption p {
+    color: #8c8c8d;
+    font-weight: 300;
+}
+
+.features .container .row .col-md-4 .feature a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 150px;
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+
+    /* Pseudo classes */
+
+    .features .container .row .col-md-4 .feature a:hover {
+        background: black;
+        color: white;
+    }
+
+    /* END Pseudo classes */
+
+/* END Features with big icons */
+
+
+/* Features with IPhone */
+
+    /* Borders */
+
+    /* .iFeatures .container {
+        border: 1px solid black;
+    } */
+
+    /* END Borders */
+
+.iFeatures {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    background: #26e6e6;
+}
+
+.iFeatures .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 789px;
+    background: url('../img/bg/iPhone.png') no-repeat;
+    padding: 0;
+}
+
+.iFeatures .container .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 385px;
+    height: 675px;
+    background: white;
+}
+
+.iFeatures .container .wrapper .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 615px;
+}
+.iFeatures .container .wrapper .features .feature {
+    width: 100%;
+}
+
+.iFeatures .container .wrapper .features .feature figure {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.iFeatures .container .wrapper .features .feature figure img{
+    margin-left: 30px;
+}
+
+.iFeatures .container .wrapper .features .feature figure figcaption{
+    margin: 10px 0 0 20px;
+}
+
+.iFeatures .container .wrapper .features .feature figure figcaption h3 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.iFeatures .container .wrapper .features .feature figure figcaption p {
+    max-width: 255px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.iFeatures .container .wrapper a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+    /* Pseudo classes */
+
+    .iFeatures .container .wrapper a:hover {
+        background: rgb(77, 77, 77);
+    }
+
+    /* END Pseudo classes */
+
+/* END Features with IPhone */
+
+
+/* Message */
+
+.message {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+}
+
+.message .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message .container h1 {
+    font-size: 72px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.message .container p {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 55px;
+    text-align: center;
+    max-width: 510px;
+}
+
+/* END Message */
+
+    /* Borders */
+
+    /* .advantages {
+        border: 1px solid black;
+    }
+
+    .advantages .container {
+        border: 1px solid red;
+    }
+
+    .advantages .container .row {
+        border: 1px solid green;
+    } */
+
+    /* END Borders */
+
+/* Advantages */
+
+.advantages {
+    display: flex;
+    align-items: center;
+    min-height: 215px;
+    background: #f5f6f8;
+    padding-top: 100px;
+}
+
+.advantages .container .row .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .advantages .container .row .col-md-4 .content h4,
+    .advantages .container .row .col-md-4 .content p,
+    .advantages .container .row .col-md-4 a {
+        font-weight: 500;
+    }
+
+.advantages .container .row .col-md-4 .content p {
+    font-size: 14px;
+    color: #8c8c8d;
+}
+
+.advantages .container .row .col-md-4 a {
+    font-size: 12px;
+    color: black;
+    margin: 15px 0 15px 0;
+    transition: all 0.3s ease;
+}
+
+    /* Pseudo classes */
+
+    .advantages .container .row .col-md-4 a:hover {
+        color: rgb(98, 98, 98);
+    }
+
+    /* END Pseudo classes */
+
+/* END Advantages */
+
+
+/* Message with IPad */
+
+.iPadMessage {
+    width: 100%;
+    background: #f5f6f8;
+    padding-top: 80px;
+}
+
+.iPadMessage .container {
+    background: black;
+}
+
+.iPadMessage .container figure {
+    height: 600px;
+}
+
+.iPadMessage .container figure figcaption {
+    max-width: 560px;
+    margin: 0 0 0 120px;
+    padding-top: 120px;
+}
+
+.iPadMessage .container figure figcaption h1 {
+    font-weight: 100;
+    font-size: 72px;
+    color: white;
+}
+
+.iPadMessage .container figure figcaption p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #808080;
+    max-width: 420px;
+}
+
+.iPadMessage .container figure a {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+    background: #26e6e6;
+    border-radius: 20px;
+    margin: 100px 0 0 120px;
+
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+
+/* END Message with IPad */
+
+
+/* Platform Features */
+
+    /* Borders */
+
+    /* .platformFeatures {
+        border: 1px solid black;
+    }
+
+    .platformFeatures .container {
+        border: 1px solid red;
+    } */
+
+    /* END Borders */
+
+.platformFeatures {
+    width: 100%;
+    min-height: 540px;
+    background: #f5f6f8;
+    padding-top: 75px;
+}
+
+.platformFeatures .container figure figcaption h6 {
+    font-size: 12px;
+    margin: 0 0 38px 0;
+}
+
+    .platformFeatures .container figure figcaption h6,
+    .platformFeatures > .container > figure > figcaption > p {
+        font-weight: 500;
+        text-align: center;
+    }
+
+.platformFeatures > .container > figure > figcaption > p {
+    margin: 0 auto;
+    font-size: 18px;
+    max-width: 850px;
+    margin-bottom: 70px;
+}
+
+.platformFeatures .container .row .col-md-4 figure {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.platformFeatures .container .row .col-md-4 figure figcaption {
+    margin-left: 22px;
+}
+
+.platformFeatures .container .row .col-md-4 figure figcaption h3 {
+    font-size: 18px;
+    margin: 0 16px 0 0;
+}
+
+    .platformFeatures .container .row .col-md-4 figure figcaption h3,
+    .platformFeatures .container .row .col-md-4 figure figcaption p {
+        font-weight: 500;
+    }
+
+.platformFeatures .container .row .col-md-4 figure figcaption p {
+    font-size: 14px;
+    color: #adadaf;
+}
+
+/* END Platform Features */
+
+
+/* Price list */
+
+.priceList {
+    width: 100%;
+    background: #f5f6f8;
+    padding-bottom: 25px;
+}
+
+.priceList .container .row .col-md-4 {
+    margin: 20px 0;
+}
+
+.priceList .container .row .col-md-4 figure {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.priceList .container .row .col-md-4 figure figcaption h6 {  
+    font-size: 12px;
+    margin: 60px 0;
+}
+
+    .priceList .container .row .col-md-4 figure figcaption h6,
+    .priceList .container .row .col-md-4 figure figcaption p,
+    .priceList .container .row .col-md-4 figure a {
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+.priceList .container .row .col-md-4 figure figcaption p {
+    font-size: 14px;
+    color: #7a7b7c;
+    max-width: 232px;
+    margin: 35px 0 78px 0;
+}
+
+.priceList .container .row .col-md-4 figure figcaption .price {
+    font-weight: 900;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+}
+
+.priceList .container .row .col-md-4 figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+    /* Pseudo classes */
+
+    .priceList > .container > .row > .col-md-4 > figure:hover {
+        background: black;
+    }
+
+    .priceList > .container > .row > .col-md-4 > figure:hover > figcaption > h6,
+    .priceList > .container > .row > .col-md-4 > figure:hover > figcaption > .price {
+        color: white;
+    }
+
+    .priceList .container .row .col-md-4 figure:hover figcaption p {
+        color: #808080;
+    }
+
+    .priceList .container .row .col-md-4 figure:hover a {
+        background: #26e6e6;
+        color: rgb(49, 49, 49)
+    }
+
+    /* END Pseudo classes */
+
+/* END Price list */
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 925px;
+    background: url('../img/bg/bg-footer.png') no-repeat center bottom;
+    background-size: cover;
+}
+
+footer .inscription {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+footer .inscription h1 {
+    text-align: right;
+    font-weight: 900;
+    font-size: 90px;
+    max-width: 950px;
+}
+
+footer .helpBox {
+    background: black;
+    min-height: 280px;
+    margin-bottom: 125px;
+}
+
+footer .helpBox .row {
+    margin-top: 45px;
+}
+
+footer .helpBox .row .col-sm-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer .helpBox .row ul li {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+footer .helpBox .row ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #777777;
+}
+
+footer .helpBox .row .aboutAuthor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+footer .helpBox .row .aboutAuthor figure figcaption {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .helpBox .row .aboutAuthor figure figcaption span {
+    font-weight: 300;
+    font-size: 11px;
+    color: #4f4f4f;
+}
+
+footer .helpBox .row .aboutAuthor figure img {
+    margin-top: 10px;
+}
+
+footer .helpBox .row .aboutAuthor div a {
+    font-size: 12px;
+    font-weight: 300;
+    color: #4f4f4f;
+    transition: all 0.3s ease;
+}
+
+footer .helpBox .row .aboutAuthor div .socialNetworks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* END Footer */
+
+
+/* Media requests */
+
+@media all and (max-width: 575px) {
+
+    /* Header */
+
+    .navbar {
+        position: fixed;
+        padding: 0;
+    }
+
+    .navbar .container .row {
+        background: #f3f6f9;
+    }
+
+    .navbar .container .row .col-sm-10 {
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu {
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 288px;
+        top: -325px;
+        background: #f3f6f9;
+        transition: .3s ease-out;
+        box-shadow: 0 7px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem {
+        margin: 0;
+    }
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem a{
+        justify-content: center;
+    }
+
+    .navbar .navbarButton {
+        display: block;
+        background: #f3f6f9;
+    }
+
+    .navbar .navbarButton .menuButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        border: 0;
+        background: none;
+    }
+
+    /* Pseudo classes */
+
+    .navbar .navbarButton .menuButton:focus {
+        outline: none;
+    }
+
+    /* END Pseudo classes */
+
+    .navbar .container .row .col-sm-10 nav .activeMenuButton {
+        top: 48px;
+    }
+
+    .hero .container figure {
+        width: 100%;
+    }
+
+    .hero .container figure figcaption h1 {
+        font-weight: 300;
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .hero .container figure figcaption span {
+        display: block;
+        width: 175px;
+        margin: 0 auto;
+        font-weight: 300;
+        font-size: 12px;
+        color: black;
+    }
+
+    .hero .container figure a {
+        margin: 50px auto;
+    }
+
+    /* END Header */
+
+
+    /* Footer */
+
+    footer .helpBox {
+        margin: 40px 0 0 0;
+    }
+
+    footer .helpBox .row .col-sm-1 {
+        margin-bottom: 10px;
+    }
+
+    footer .helpBox .row ul li {
+        margin-bottom: 10px;
+    }
+
+    footer .helpBox .row .aboutAuthor {
+        align-items: center;
+    }
+
+    footer .helpBox .row .aboutAuthor figure figcaption {
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #4f4f4f;
+    }
+
+    footer .helpBox .row .aboutAuthor div {
+        margin-bottom: 20px;
+    }
+
+    footer .inscription h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* END Footer */
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+
+    /* Header */
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem {
+        margin-left: 25px;
+    }
+
+    /* END Header */
+
+
+    /* Footer */
+
+    footer .inscription h1 {
+        font-size: 48px;
+    }
+
+    /* END Footer */
+}
+
+@media all and (max-width: 767px) {
+    /* Features with big icons */
+
+    .features .container .row .col-md-4 .feature {
+        margin: 20px 0;
+    }
+
+    .features .container .row .col-md-4 .feature a {
+        background: #f4f7fa;
+        border-bottom: 1px solid #8c8c8d;
+    }
+
+    .features .container .row .col-md-4 .feature figcaption p {
+        max-width: 288px;
+    }
+
+    /* END Features with big icons */
+
+
+    /* Message */
+
+    .message .container h1 {
+        font-size: 50px;
+    }
+
+    .message .container p {
+        width: 100%;
+    }
+
+    /* END Message */
+
+
+    /* Advantages */
+
+        .advantages .container .row .col-md-4 .content h4,
+        .advantages .container .row .col-md-4 .content p {
+            text-align: center;
+        }
+
+    .advantages .container .row .col-md-4 a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+        width: 100px;
+        height: 20px;
+        border-radius: 5px;
+        background: #f1f1f1;
+        border-bottom: 1px solid #8c8c8d;
+    }
+
+    /* END Advantages */
+
+
+    /* Platform Features */
+
+    .platformFeatures .container .row .col-md-4 figure {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .platformFeatures .container .row .col-md-4 figure figcaption p {
+        max-width: 268px;
+    }
+
+    /* END Platform Features */
+
+
+    /* Price list */
+
+    .priceList .container .row .col-md-4 figure a {
+        background: #f1f1f1;
+        border-bottom: 1px solid #8c8c8d;
+    }
+
+    /* END Price list */
+}
+
+@media all and (min-width: 768px) {
+    /* Platform Features */
+
+    .platformFeatures .container .row {
+        margin-bottom: 20px;
+    }
+
+    /* END Platform Features */
+}
+
+@media all and (max-width: 991px) {
+    /* Features with IPhone */
+
+    .iFeatures {
+        height: 780px;
+    }
+
+    .iFeatures .container {
+        justify-content: center;
+        background: none;
+        height: 690px;
+    }
+
+    /* END Features with IPhone */
+
+
+    /* Features with IPhone */
+
+    .iFeatures .container .wrapper .features .feature figure figcaption p {
+        padding-right: 5px;
+    }
+
+    /* END Features with IPhone */
+
+
+    /* Message with IPad */
+
+    .iPadMessage .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 600px;
+    }
+    .iPadMessage .container figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .iPadMessage .container figure figcaption {
+        margin: 0;
+    }
+
+    .iPadMessage .container figure figcaption h1 {
+        font-size: 48px;
+    }
+
+    .iPadMessage .container figure figcaption h1,
+    .iPadMessage .container figure figcaption p {
+        text-align: center;
+    }
+
+    .iPadMessage .container figure figcaption p {
+        margin: 0 auto;
+        padding: 50px 0 100px 0;
+    }
+
+    .iPadMessage .container figure a {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    /* END Message with IPad */
+}
+
+@media all and (min-width: 1200px) {
+    /* Header */
+
+    .navbar .container .row .col-sm-2 .logo {
+        margin-left: 50px;
+    }
+
+    .navbar .container .row .col-sm-10 nav .navbarMenu .navbarMenuItem {
+        margin: 0 50px 0 0;
+    }
+
+    .hero .container figure {
+        margin-left: 50px;
+    }
+
+    /* END Header */
+
+    /* Features with big icons */
+
+    .features .container .row .col-md-4 .feature figcaption p {
+        max-width: 288px;
+    }
+
+    /* END Features with big icons */
+
+    /* Advantages */
+
+    .advantages .container .row .col-md-4 {
+        border-radius: 5px;
+        border-right: 1px solid rgb(189, 189, 189);
+    }
+
+    /* END Advantages */
+    
+}
+
+@media all and (min-width: 768px) and  (max-width: 991px) {
+    /* Footer */
+
+    footer .inscription h1 {
+        font-size: 64px;
+    }
+
+    /* END Footer */
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    /* Footer */
+
+    footer .inscription h1 {
+        font-size: 72px;
+        max-width: 760px;
+    }
+
+    /* END Footer */
+}
+
+/* END Media requests */
